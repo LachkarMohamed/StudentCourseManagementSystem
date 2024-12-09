@@ -1,0 +1,11 @@
+# Ignore database configuration file
+db.php
+
+# Ignore environment files
+.env
+
+# Ignore log files
+*.log
+
+# Ignore directories (example: cache folder)
+cache/
