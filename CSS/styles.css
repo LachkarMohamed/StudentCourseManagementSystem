@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #2998c3;
+    color: #e5e5e5;
+    padding: 20px;
+    text-align: left; /* Align content to the left */
+}
+h1{
+    font-family:cursive;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left */
+}
+
+header .logo img {
+    height: 80px; /* Increase the size of the logo */
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+
+header .logo h1 {
+    font-size: 30px; /* Increase the size of the text */
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.link-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.link-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.link-item a p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.link-item:hover {
+    transform: translateY(-10px);
+}
+
+.circle-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
